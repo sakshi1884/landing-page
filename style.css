@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:cursive;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.home{
+    background: url(./images/topview.jpg)no-repeat;
+    height: 100vh;
+    background-size:cover ;
+    background-position: center;
+}
+
+header{
+    width:100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30 px 10%;
+    background: #936a4a; 
+    
+}
+
+.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color:lavenderblush;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding:0px 20px;
+    transition: 1s;
+
+}
+a,button{
+    font-size:20px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav li a:hover{
+    color:goldenrod;
+}
+
+header .logo:hover{
+    color: goldenrod;
+}
+
+/*NABVAR ENDS*/
+
+/*hero section starts*/
+.home {
+  position: relative;
+  display: flex;
+ 
+  min-height: 100vh;
+  align-items: center;
+}
+
+.home .content h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 55rem;
+  padding-right: 10px;
+}
+
+.home .btn {
+  margin-top: 1rem;
+  position: absolute;
+  line-height: 0;
+  padding: 1.3rem 2.8rem;
+  margin-left: 64rem;
+  margin-top: 3rem;
+  
+  border-radius: 4em;
+  color: #000000;
+  background: #ffffff;
+  font-family: "Nunito", sans-serif;
+}
+.home .btn span {
+  font-weight: 700;
+  font-size: 1.7rem;
+  letter-spacing: 0.1rem;
+  
+}
+.home .btn i {
+  margin-left: 0.3rem;
+  font-size: 1.7rem;
+  color: #000000;
+}
+.home .btn:hover {
+  background:goldenrod;
+  box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.6);
+}
+
+/* social icons start */
+.socials {
+    position: relative;
+    margin-top: 9rem;
+    margin-left: 65rem;
+  
+  }
+  .socials .social-icons {
+    padding-right: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  .socials .social-icons li {
+    display: inline-block;
+    margin-bottom: 14px;
+  }
+  .social-icons a {
+    font-size: 2rem;
+    display: inline-block;
+    line-height: 44px;
+    color: #ffffff;
+    background-color: #09011b;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 95%;
+  }
+  .social-icons a:active,
+  .social-icons a:focus,
+  .social-icons a:hover {
+    color: #fff;
+    background-color: #0467a9;
+  }
+  .social-icons a.whatsapp:hover {
+    background-color: #07d448;
+  }
+  
+  .social-icons a.instagram:hover {
+    background-color: #bd0ca3;
+  }
+  /* social icons end */
+
+  /*about section starts*/
+  .heading{
+    background: rgb(224, 251, 222);
+    background: linear-gradient(360deg, #f5b381, #775135 100%);
+
+}
+.about {
+    text-align: center;
+}
+.about p {
+    font-size: 1rem;
+    color: #323030;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about .heading h1{
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 40px;
+  color:#fff;
+
+}
+
+.about .heading p{
+  font-size: 20px;
+  color: #fffefe;
+}
+ 
+.about-info {
+    margin: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  
+}
+ 
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: contain;
+    padding-bottom: 90px;
+}
+ 
+.about-info p {
+    font-size: 1.3rem;
+    margin: 0 5rem;
+    text-align: justify;
+}
+
+/* menu section starts */
+.menu-list{
+  background: url(./images/coffee3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100vh;
+  
+
+}
+.menu-list h1{
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  padding:20px;
+  height:100vh;
+  margin-top: 0;
+}
+.menu-list h3{
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+
+}
+/* menu ends */
+
+/* contact us starts */
+
+.container{
+  background: url(./images/beans.jpg);
+  width:100%;
+  height:100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+  width:100%;
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+fieldset{
+  background-color: #ffff;
+  border: 1px solid #ccc;
+}
+.main{
+  text-align: center;
+
+}
+input[type="submit"]{
+  background-color: #4dada1;
+  color: #ffff;
+  padding:12px 20px;
+  border:none;
+  border-radius: 4px;
+  cursor:pointer;
+  width:100%;
+
+}
+input[type="submit"]:hover{
+  background-color: #4caf84;
+}
